@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<!-- User Insert Part -->
+		<servlet>
+		<servlet-name>UserInfoServlet</servlet-name>
+		<servlet-class>com.UserInformation.UserInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInfoServlet</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+	<!-- User Profile part -->
+	<servlet>
+		<servlet-name>UserProfileServlet</servlet-name>
+		<servlet-class>com.UserInformation.UserProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserProfileServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Update User Part -->
+		<servlet>
+		<servlet-name>UpdateUser</servlet-name>
+		<servlet-class>com.UserInformation.UpdateUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateUser</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Delete User Part -->
+		<servlet>
+		<servlet-name>DeleteUser</servlet-name>
+		<servlet-class>com.UserInformation.DeleteUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteUser</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+
+
+</web-app>
