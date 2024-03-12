@@ -1,0 +1,2 @@
+## Online bidding system| Web Application
+#### The project was able to complete our 2nd-year, 1st-semester project for the Object-Oriented Programming module. The innovative platform organizes reliable online auctions, supporting a filled bidding ecosystem. My Contribution to the development of user management, enabling account creation, login, and account management for the bidding system. We used Java,Bootstrap, CSS, MVC architecture, and object-oriented concepts and integrated with MYSQL database for efficient data management.
